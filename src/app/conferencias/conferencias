@@ -1,0 +1,14 @@
+export class conferencias {
+  id: string;
+  name: string;
+  credits: number;
+  sdate: string;
+  fdate: string;
+  
+  public constructor(id: string, name: string, sdate: string,fdate:string) {
+    this.id= id;
+    this.name = name;
+    this.sdate=sdate;
+    this.fdate=fdate;
+  }
+}
